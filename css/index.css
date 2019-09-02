@@ -1,6 +1,64 @@
 html {
     overflow-x: hidden
 }
+
+.box{
+    border: 2px solid #02fe7f;
+    width: 300px;
+    height: 30%;
+    background: transparent;
+}
+.heading{
+    background: #02fe7f;
+    margin: -22px 0 -22px 0;
+}
+.heading>h1{
+    text-align: center;
+    color: ghostwhite;
+    font-size: 20px;
+}
+.past4weeks{
+    border-top: 2px solid #02fe7f;
+    border-bottom: 2px solid #02fe7f;
+    padding-left: 10px;
+    text-align: left;
+}
+.head>h1{
+    font-size: 20px;
+    color: #02fe7f;
+    text-transform: uppercase;
+}
+.head>h3{
+    margin-top: -10px;
+    font-size: 15px;
+    color: ghostwhite;
+}
+.past4weeks>h1{
+    /* text-align: center; */
+    font-size: 22px;
+    font-weight: 800;
+    color: ghostwhite;
+}
+.mostfrequent{
+    margin: -20px 0 -20px 0;
+}
+.mostfrequent>h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+    font-weight: 800;
+    color: ghostwhite;
+}
+.mostfrequent>h4{
+    margin-top: -8px;
+    /* padding-top: -10px; */
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: #02fe7f;
+}
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -19,6 +77,72 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
+     
+      
+button:focus{
+    outline: 0;
+}
+.hiddenbutton {
+  position: relative;   
+} 
+.hiddenbutton .hovertext {
+  background: #9da4a780;
+  visibility: hidden;
+  color: #fff;
+  border-radius: 0;
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+} 
+.hiddenbutton:hover .hovertext {
+  visibility: visible;
+  color: #02fe7f;
+  
+  background: #9da4a780;
+
+}
+.btn{
+    background: transparent;
+    width: 10px;
+    height: 4px;
+}
+.btnusa{
+  margin: 94px 0 0 83px;
+  padding: 25px;}
+.btnusa2{
+  margin: 192px 0 0 59px;
+  padding: 61px;
+}
+.btntrinidad{
+  margin: 412px 0 0 103px;
+}
+.btnsingapore{
+  margin: 448px 0 0 81px;
+}
+.btngermany{
+  margin: 176px 0 0 -80px;
+}
+.btnnorway{
+  margin: 10px 0 0 189px;
+  padding: 49px;
+
+}
+.btnisrael{
+  margin: 300px 0 0 48px;
+}
+.btnindia{
+  margin: 322px 0 0 141px;
+  padding: 42px;
+}
+.btntaiwan{
+  margin: 328px 0 0 -13px;
+}
+.btnphilippines{
+  margin: 355px 0 0 -26px;
+  padding: 22px;}
+.btnnewzealand{
+  margin: 601px 0 0 109px;
+  padding: 30px;}
       #aboutus,#ourteam,#contactus{
         padding: 8%;
     }
@@ -54,6 +178,12 @@ html {
 
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:115px;
@@ -200,9 +330,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
@@ -340,6 +470,9 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
+      .hiddenbutton{
+        visibility: hidden;
+    }
       .quaffle{
         text-align: end; 
         padding-right:120px;
@@ -360,6 +493,12 @@ html {
 
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:115px;
@@ -500,9 +639,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
@@ -641,6 +780,9 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
+      .hiddenbutton{
+        visibility: hidden;
+    }
       .quaffle{
         text-align: center; 
         font-size:1.5em;
@@ -660,6 +802,12 @@ html {
 
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:115px;
@@ -799,9 +947,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
@@ -967,7 +1115,9 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
-
+      .hiddenbutton{
+        visibility: hidden;
+    }
       .quaffle{
         text-align: center; 
         font-size:1.5em;
@@ -1001,6 +1151,12 @@ html {
     }
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:100px;
@@ -1140,9 +1296,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
@@ -1291,6 +1447,9 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
+      .hiddenbutton{
+        visibility: hidden;
+    }
 
       .quaffle{
         text-align: center; 
@@ -1312,6 +1471,12 @@ html {
     }
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:80px;
@@ -1451,9 +1616,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
@@ -1602,7 +1767,9 @@ html {
         overflow-x: hidden;
         scroll-behavior: smooth;
       }
-   
+      .hiddenbutton{
+        visibility: hidden;
+    }
       .quaffle{
         text-align: center; 
         font-size:1.5em;
@@ -1624,6 +1791,12 @@ html {
 
     button:focus {
         outline: 0;
+    }
+    .main-heading{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 18% 0 0 30%
     }
     .main-heading>img:nth-child(1){
         width:65px;
@@ -1781,9 +1954,9 @@ html {
         height: 100vh;
         /* position: fixed; */
         display: flex;
-        text-align: center;
+        /* text-align: center;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         z-index: -10;
         background-color: black;
         background-image: url('../assets/world_bg.png');
